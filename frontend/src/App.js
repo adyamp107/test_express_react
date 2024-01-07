@@ -11,7 +11,7 @@ function App() {
     //   .then(data => setData(data));
 
     // Menggunakan Axios
-    axios.get('http://localhost:5000/')
+    axios.get('https://test-express-react.vercel.app/')
       .then(response => setData(response.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []);
